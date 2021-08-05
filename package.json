@@ -9,8 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "pkg": {
-    "assets": "views/**/*",
-    "targets": [ "node14-linux-arm64" ]
+    "assets": "assets/**/*"
   },
   "author": "kunal pareek",
   "license": "ISC",
