@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-app-executable-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pkg": {
+    "assets": "views/**/*",
+    "targets": [ "node14-linux-arm64" ]
+  },
+  "author": "kunal pareek",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
